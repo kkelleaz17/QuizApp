@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="TITLE">Quiz app</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./AnswerKey.js" defer></script>
+    <script src="./index.js" defer></script>
+    <script src="https://kit.fontawesome.com/0a6edc6f6b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="CONTAINER">
+        <h1 id="QUESTION">Question 1</h1>
+        <div id="PICTURE"><img src=""  id="PICTRUE" alt=""></div>  
+        <div class="QUESTION">
+            <div id="Q1" onclick="ANSWERQUESTION(this)" class="Q1">1</div>
+            <div id="Q2" onclick="ANSWERQUESTION(this)" class="Q2">2</div>
+            <div id="Q3" onclick="ANSWERQUESTION(this)" class="Q3">3</div>
+            <div id="Q4" onclick="ANSWERQUESTION(this)" class="Q4">4</div>
+        </div>
+        <div id="SUBMIT">
+          <h1 id="QA">Question Answered: 0</h1>
+          <h2 id="SCORE">-/10</h2>
+          <div>
+            <button id="SB" onclick="SUBMIT()">Submit</button>
+            <button id="SA">See answers</button>
+          </div>
+        </div>
+        <div class="OPTIONS">
+             <div id="BACK">Back</div>
+             <div id="NEXT">Next</div>
+             <div id="RESET">Reset</div>
+        </div>
+    </div>
+</body>
+</html>
