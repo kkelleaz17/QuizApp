@@ -21,7 +21,7 @@ function SETPICTURE(){
     }else{
         END = ".png"
     }
-    document.getElementById("PICTRUE").src="../media/PIC"+QUESTIONNUMBER+END
+    document.getElementById("PICTRUE").src="./PIC"+QUESTIONNUMBER+END
 }
 
 function ANSWERQUESTION(OPTION){
